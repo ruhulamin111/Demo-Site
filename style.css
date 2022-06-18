@@ -4,6 +4,7 @@
 /* html tag */
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -34,5 +35,23 @@ section {
 
 .contact {
     text-decoration: none;
+    background-color: #F2B705;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    border: 1px solid #42378C;
+    border-radius: 10px;
+}
 
+.top-banner {
+    background-image: url("./background/top-banner.png");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.dream {
+    background-image: url("./background/dream-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    background-position: right;
 }
