@@ -15,7 +15,7 @@ p {
     text-align: justify;
 }
 
-section {
+.flex {
     display: flex;
 }
 
@@ -23,6 +23,17 @@ section {
 .divided-part {
     width: 50%;
     margin: 2% 6%;
+}
+
+.service {
+    margin: 2% 6%;
+}
+
+.divided-text {
+    gap: 60px;
+    margin: 2% 6%;
+    margin-bottom: 100px;
+
 }
 
 .divided-part img {
@@ -52,6 +63,6 @@ section {
 .dream {
     background-image: url("./background/dream-bg.png");
     background-repeat: no-repeat;
-    margin-bottom: 100px;
     background-position: right;
+    margin-bottom: 100px;
 }
