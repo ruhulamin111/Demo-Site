@@ -19,6 +19,14 @@ p {
     display: flex;
 }
 
+footer {
+    margin-bottom: 50px;
+}
+
+footer h4 {
+    text-align: center;
+}
+
 /* css class */
 .divided-part {
     width: 50%;
@@ -75,4 +83,6 @@ p {
 .shadow {
     box-shadow: 4px 4px 10px gray;
     padding: 15px;
+    border-left: 8px solid #42378C;
+    border-radius: 10px;
 }
