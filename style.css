@@ -32,7 +32,6 @@ p {
 .divided-text {
     gap: 60px;
     margin: 2% 6%;
-    margin-bottom: 100px;
 
 }
 
@@ -65,4 +64,15 @@ p {
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 100px;
+}
+
+.services {
+    background-image: url("./background/exp-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.shadow {
+    box-shadow: 4px 4px 10px gray;
+    padding: 15px;
 }
